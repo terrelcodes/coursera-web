@@ -1,0 +1,13 @@
+{
+  "name": "webtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sync": "cd public && browser-sync start --server --files \"*\" --directory"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

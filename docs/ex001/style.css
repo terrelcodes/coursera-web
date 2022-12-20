@@ -1,0 +1,25 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .sender-column {
+    text-align: right;
+  }
+  
+  h1 {
+    font-size: 1.2em;
+  }
+  
+  h2 {
+    font-size: 1.1em;
+  }
+  
+  p,ul,ol,dl,address {
+    font-size: 1.0em;
+  }
+  
+  p, li, dd, dt, address {
+    line-height: 1.25;
+  }
+  

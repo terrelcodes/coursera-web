@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable Document</title>
+    <style>#content { border: 1px solid blue;}</style>
+    <style id="css">p { color: blue; }</style>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <main>
+        <section>
+            <label for="html">html</label>
+            <textarea name="html" id="html" cols="30" rows="10"></textarea>
+            <label for="ecss">css</label>
+            <textarea name="ecss" id="ecss" cols="30" rows="10"></textarea>
+            <button id="bold"><b>B</b></button>
+            <button id="italic"><i>i</i></button>
+        </section> 
+        <section class="preview"><h2>Preview</h2>
+            <div id="content"><p>This is a test.</p></div>
+        </section>
+    </main>
+    <section>
+        
+    </section>
+</body>
+</html>
